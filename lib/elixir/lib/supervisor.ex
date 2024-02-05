@@ -317,7 +317,7 @@ defmodule Supervisor do
       Supervisor.start_link(children, strategy: :one_for_one)
 
   The first argument given to `start_link/2` is a list of child
-  specifications as defined in the "child_spec/1" section above.
+  specifications as defined in the `child_spec/1` section above.
 
   The second argument is a keyword list of options:
 
